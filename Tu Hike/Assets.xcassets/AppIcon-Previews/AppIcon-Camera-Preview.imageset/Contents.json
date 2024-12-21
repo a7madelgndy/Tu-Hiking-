@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "AppIcon-Camera.png",
+      "filename" : "AppIcon-Camera-Preview.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
