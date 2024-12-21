@@ -12,6 +12,8 @@
 		1574BB222D164C6000D6C38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1574BB212D164C6000D6C38E /* Assets.xcassets */; };
 		1574BB252D164C6000D6C38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1574BB242D164C6000D6C38E /* Preview Assets.xcassets */; };
 		1574BB2E2D16554800D6C38E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574BB2D2D16554800D6C38E /* CardView.swift */; };
+		1574BB312D16571D00D6C38E /* CustomBackgroundview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574BB302D16571D00D6C38E /* CustomBackgroundview.swift */; };
+		1574BB342D165E9F00D6C38E /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574BB332D165E9F00D6C38E /* Color+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		1574BB212D164C6000D6C38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1574BB242D164C6000D6C38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1574BB2D2D16554800D6C38E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1574BB302D16571D00D6C38E /* CustomBackgroundview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundview.swift; sourceTree = "<group>"; };
+		1574BB332D165E9F00D6C38E /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +57,12 @@
 		1574BB1C2D164C5D00D6C38E /* Tu Hike */ = {
 			isa = PBXGroup;
 			children = (
+				1574BB322D165E3F00D6C38E /* Uitility */,
 				1574BB1D2D164C5D00D6C38E /* Tu_HikeApp.swift */,
 				1574BB1F2D164C5D00D6C38E /* ContentView.swift */,
 				1574BB212D164C6000D6C38E /* Assets.xcassets */,
 				1574BB232D164C6000D6C38E /* Preview Content */,
-				1574BB2D2D16554800D6C38E /* CardView.swift */,
+				1574BB2F2D1656D100D6C38E /* Component */,
 			);
 			path = "Tu Hike";
 			sourceTree = "<group>";
@@ -68,6 +73,23 @@
 				1574BB242D164C6000D6C38E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1574BB2F2D1656D100D6C38E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1574BB2D2D16554800D6C38E /* CardView.swift */,
+				1574BB302D16571D00D6C38E /* CustomBackgroundview.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1574BB322D165E3F00D6C38E /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				1574BB332D165E9F00D6C38E /* Color+Extention.swift */,
+			);
+			path = Uitility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1574BB202D164C5D00D6C38E /* ContentView.swift in Sources */,
+				1574BB342D165E9F00D6C38E /* Color+Extention.swift in Sources */,
 				1574BB2E2D16554800D6C38E /* CardView.swift in Sources */,
 				1574BB1E2D164C5D00D6C38E /* Tu_HikeApp.swift in Sources */,
+				1574BB312D16571D00D6C38E /* CustomBackgroundview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
